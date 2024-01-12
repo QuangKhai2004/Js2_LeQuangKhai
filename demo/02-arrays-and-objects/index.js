@@ -100,7 +100,6 @@ x = arr.flat();
 
 // isArray() - Check is is an array
 x = Array.isArray(fruits);
-
 // from() - Create an array from an array like value
 x = Array.from('12345');
 
