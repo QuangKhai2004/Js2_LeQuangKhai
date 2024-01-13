@@ -111,3 +111,24 @@ const c = 3;
 x = Array.of(a, b, c);
 
 console.log(x);
+
+const pearson = {
+    name: 'khai',
+    age: 12,
+    isAdamin: true,
+    addresses: 'nam dinh',
+    hobiles: 'play games',
+
+
+}
+console.log(pearson);
+
+const {name:myName,age,addresses}=pearson;
+
+console.log(myName,age,addresses);
+
+const obj1={a:1,b:2};
+const obj2={c:3,d:4};
+const cloneobj1={...obj1};// clone tao ra motj ban sao khong anh huong den obj cu
+const obj3={...obj1,...obj2};
+console.log(obj3)
